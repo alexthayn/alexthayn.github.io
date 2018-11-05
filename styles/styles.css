@@ -2,6 +2,11 @@ a:hover {
   text-decoration: none;
 }
 
+
+a{
+    color: #0A4FA5;
+}
+
 .sidebar {
   position: fixed;
   left: 0px;
@@ -23,6 +28,7 @@ a:hover {
   float: none;
   clear: none;
 }
+
 
 .heading {
   font-family: 'Montserrat', sans-serif !important;
@@ -58,6 +64,9 @@ a:hover {
   border-color: #E53B22;
 }
 
+.fontsize-main{
+    font-size: 20px;
+}
 .social:hover a {
   color: rgba(0, 0, 0, 0.4);
 }
@@ -82,27 +91,35 @@ section .heading {
 }
 
 section.yellow {
-  background-color: #f9ff2d;
+  background-color: #CEDA07;
 }
 
-section.voilet {
+section.darkyellow{
+    background-color: #EFD858;
+}
+
+section.violet {
   background-color: #4768FD;
 }
 
+section.darkblue{
+    background-color: #0A4FA5;
+}
+
 section.blue {
-    background-color: #45d8eb;
+    background-color: #03A1DA;
 }
 
 section.green {
-    background-color: #7FBF2B;
+    background-color: #86BF28;
 }
 
 section.orange {
-    background-color: #F38528;
+    background-color: #F3B129;
 }
 
 section.red {
-    background-color: #F13A23;
+    background-color: #F12522;
 }
 
 .progress {
@@ -112,6 +129,15 @@ section.red {
 
 .progress .bg-blue {
   background-color: #2e96a5;
+}
+
+text-white{
+    color: white;
+}
+
+
+.text-grey{
+    color: dimgrey;
 }
 
 #timeline {
@@ -127,7 +153,7 @@ section.red {
   content: "";
   width: 3px;
   height: 100%;
-  background: #000;
+  background: #fff;
   left: 50%;
   top: 0;
   position: absolute;
@@ -143,11 +169,11 @@ section.red {
 #timeline .timeline-item {
   margin-bottom: 50px;
   position: relative;
-  text-align: right;
+  text-align: left;
 }
 
 #timeline .timeline-item .timeline-icon {
-  background: #000;
+  background: #fff;
   width: 20px;
   height: 20px;
   position: absolute;
@@ -170,7 +196,7 @@ section.red {
 }
 
 #timeline .timeline-item .timeline-content p {
-  color: rgba(0, 0, 0, 0.7);
+  color: rgba(256, 256, 256, 0.7);
 }
 
 #timeline .timeline-item .timeline-content .date {
@@ -200,6 +226,8 @@ section.red {
     display: list-item; 
     list-style-type: disc; 
     list-style-position: inside;
+    font-size: 20px;
+     font-weight: 500;
 }
 
 @media (max-width: 767px) {
@@ -236,4 +264,5 @@ section.red {
     left: 0;
   }
 }
+
 /*# sourceMappingURL=styles.css.map */
